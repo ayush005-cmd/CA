@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .divmain{
+            background-color: #d7f8f8;
+            width: 80%;
+            border: solid 2px black;
+        }
+        .div1{
+            background-color: #c0f5c0;
+            border-radius:5px ;
+            margin: 10px;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            padding-right: 6px;
+            display:flex;
+            flex-direction: row;
+            border: 2px solid black;
+            justify-content: right;
+            gap: 0px;
+
+        }
+        .div11{
+            background-color: #fcf48e;
+            border: 2px solid black;
+            padding-left: 6px;
+            padding-right: 6px;
+
+        }
+        .div2{
+            background-color: #c0f5c0;
+            border-radius: 10px;
+            margin: 10px;
+            border-radius: 4px;
+            padding: 10px 10px ;
+            border: solid 2px black;
+
+        }
+        .div21 {
+            padding: 5px;
+            border-radius: 8px;
+            width: 97%;
+            text-align: center;
+        }
+        input[type="submit"]{
+            width: 80%;
+            border-radius: 8px;
+        }
+        .div3{
+            border-radius: 6px;
+            background-color: #c0f5c0;
+            margin: 10px;
+            padding: 10px 10%;
+            border: solid 2px black;
+
+        }
+        table{
+            background-color: plum ;
+            text-align: center;
+            width: 96%;
+        }
+    </style>
+</head>
+<body>
+    <div class="divmain">
+        <div class="div1">
+            <div class="div11">Home</div>
+            <div class="div11"> About Us</div>
+            <div class="div11">Contact Us</div>
+            <div class="div11">Products</div>
+        </div>
+
+        <div class="div2">
+            <div class="div21">
+                <form action="/">
+                    <input type="text" name="Name" id="Name" placeholder="Name"> <br>  <br>
+                    <input type="email" name="Email" id="Email" placeholder="Email"> <br>  <br>
+                    <input type="text" name="Gender" id="Gender" placeholder="Gender"> <br> <br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            
+        </div>
+
+        <div class="div3">
+            <table border="2px">
+                <tr>
+                    <th>ID</th>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Stock</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>CPU</td>
+                    <td>Rs.600</td>
+                    <td rowspan="2">5</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>RAM</td>
+                    <td>Rs.3000</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
